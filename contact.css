@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-color: rgb(221, 216, 236);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.navbar{
+   
+    height: auto;
+    background-color:  rgb(103, 103, 161);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.navbar button{
+    background-color: rgb(81, 81, 156);
+    margin-left: 30px;
+}
+.contact{
+    height: 200px;
+    background-color:  rgb(103, 103, 161);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:10px ;
+    margin: auto;
+}
+.contact h1{
+    font-size: 1.8rem;
+    color: rgb(221, 216, 236);
+}
+.right{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.left{
+    font-size: 1.3rem;
+}
+a{
+    margin: 0 20px;
+    color: rgb(21, 19, 19);
+    text-decoration: none;
+}
+a:hover{
+    color: lavender;
+    font-size: 1.01rem;
+}
+i:hover{
+    color: lavender;
+    font-size: 1.03rem;
+}
+.left:hover{
+    color: lavender;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+main hr{
+    border: 0;
+    background: rgb(112, 112, 241);
+    height: 1.8px;
+    margin: 40px 80px;
+}
+.secondSection h2{
+    font-size: 1.8rem;
+}
+
+footer{
+    color: rgb(221, 216, 236);
+    min-height: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 123, 177) ;
+}
+footer i:hover{
+    color: rgb(54, 54, 126);
+}
